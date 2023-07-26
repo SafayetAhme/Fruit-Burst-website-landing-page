@@ -26,35 +26,36 @@
 <!-----Navbar section---->
 <section>
     <div class="dropdown">
-        <label tabindex="0" class="btn btn-ghost lg:hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-        </label>
-        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-          <li><a>Home</a></li>
-          <li><a>About Us</a></li>
-          <li><a>Shop</a></li>
-          <li><a>All Fruits</a></li>
+        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">  
         </ul>
       </div>
     <div class="navbar bg-base-100 bg-orange-500  lg:max-w-5xl mx-auto mt-6 rounded-full">
         <div class="navbar-start">
           <div class="dropdown">
-              <ul class="lg:flex ml-5 gap-5 text-white hidden:flex ml-5 gap-5 text-white flex:hidden">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </label>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                 <li><a>Home</a></li>
                 <li><a>About Us</a></li>
                 <li><a>Shop</a></li>
                 <li><a>All Fruits</a></li>
               </ul>
-            
+              <ul class="lg:flex ml-5 gap-5 text-white flex ml-5 gap-5 text-white hidden">
+                <li><a>Home</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Shop</a></li>
+                <li><a>All Fruits</a></li>
+              </ul>
           </div>
         </div>
         <div class="navbar-center align-middle">
           <a class="btn btn-ghost normal-case text-xl text-white"><img class="w-8" src="images/logo.png" alt="">Fruit Burst</a>
         </div>
-        <div class="form-control pl-28">
-            <div class="input-group rounded-full">
-              <input type="text" placeholder="Search…" class="input input-bordered border-white rounded-2xl"/>
-              <button class=" rounded-full btn btn-square bg-white border-white mr-5 ">
+        <div class="form-control pl-28 ">
+            <div class="input-group rounded-full ">
+              <input type="text" placeholder="Search…" class="input input-bordered border-white lg:rounded-2xl "/>
+              <button class="rounded-full btn btn-square bg-white border-white mr-5 ">
                 <svg xmlns="http://www.w3.org/2000/svg" class=" h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
               </button>
             </div>
@@ -505,6 +506,17 @@
         <h1 class="text-3xl font-bold">Why Choose Us</h1>
         <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical
         Latin literature from 45 BC, making it over 2000 years old.</p>
+    </div>
+    <div class="grid lg:grid-cols-3 justify-between max-w-5xl mx-auto pt-8 gap-8">
+        <div>
+            <img src="./images/whychoose1.png" alt="">
+        </div>
+        <div>
+            <img src="./images/whychoose1.png" alt="">
+        </div>
+        <div>
+            <img src="./images/whychoose1.png" alt="">
+        </div>
     </div>
 </section>
 
